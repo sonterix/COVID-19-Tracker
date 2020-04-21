@@ -1,0 +1,33 @@
+$color-infected: #af1212;
+$color-recovered: #239723;
+$color-deadths: #121212;
+
+.CardsWrapper {
+  margin: 30px 0;
+
+  .card {
+    margin: 0 2%;
+
+    &.infected,
+    &.recovered,
+    &.deaths {
+      border-bottom: 15px solid;
+    }
+
+    &.infected {
+      border-color: $color-infected;
+    }
+
+    &.recovered {
+      border-color: $color-recovered;
+    }
+
+    &.deaths {
+      border-color: $color-deadths;
+    }
+
+    .cardTitle {
+      text-transform: capitalize;
+    }
+  }
+}

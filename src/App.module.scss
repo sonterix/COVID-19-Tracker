@@ -1,0 +1,19 @@
+$color-bg: #f3f3f3;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  background-color: $color-bg;
+}
+
+.centerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
