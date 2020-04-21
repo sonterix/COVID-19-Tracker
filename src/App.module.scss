@@ -11,9 +11,19 @@ body {
   background-color: $color-bg;
 }
 
-.centerWrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .logo {
+    max-width: 350px;
+    margin: 30px 0;
+
+    > img {
+      width: 100%;
+      pointer-events: none;
+    }
+  }
 }
